@@ -57,6 +57,15 @@
                     width: 1
                 }
             };
+
+            let gas = {
+                type: "picture-marker",  // autocasts as new PictureMarkerSymbol()
+                url: "./gas.png",
+                width: "20px",
+                height: "20px",
+              
+            };
+
            
 
             const popupTemplate = {
@@ -75,7 +84,7 @@
                 latitude: 43.8225
                 },
                 symbol: simpleMarkerSymbol,
-                attributes: {Name: "Porter Park", Description: "Porter park is a great place to throw a frisbee or hang a hammock"},
+                attributes: {Name: "Porter Park", Description: "Porter park is a great place to throw a frisbee or hang a hammock."},
                 popupTemplate: popupTemplate
             });
 
@@ -184,7 +193,7 @@
                 longitude: -111.8085,
                 latitude: 43.82575
                 },
-                symbol: simpleMarkerSymbol,
+                symbol: gas,
                 attributes: {Name: "Maverick", Description: ""},
                 popupTemplate: popupTemplate
             });
@@ -195,7 +204,7 @@
                 longitude: -111.7785,
                 latitude: 43.828
                 },
-                symbol: simpleMarkerSymbol,
+                symbol: gas,
                 attributes: {Name: "Maverick", Description: ""},
                 popupTemplate: popupTemplate
             });
@@ -206,7 +215,7 @@
                 longitude: -111.81138,
                 latitude: 43.8049
                 },
-                symbol: simpleMarkerSymbol,
+                symbol: gas,
                 attributes: {Name: "Conoco", Description: ""},
                 popupTemplate: popupTemplate
             });
