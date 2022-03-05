@@ -1,30 +1,25 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This project was to give me a better understanding of what GIS Mapping is and what it can do. I had a lot of fun making this map. This project is a map of Rexburg Idaho. Rexbug Idaho is home to a small university called Brigham Young Unvirsity-Idaho. It is a university that pulls students from all over the world. This map is designed to help the students unfamiliar with Rexburg. Listing more than 20 points of interest, new students can see some of the places to shop eat or have fun.  
 
-{Provide a description the map software that you wrote. Describe how to use your software.  Describe the source of the data that you used.}
 
-{Describe your purpose for writing this software.}
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/RSiSJrw2voE)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+ArcGIS
+Visual Studio Code
+HTML
+CSS
+JavaScript
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [ArcGIS](https://developers.arcgis.com/documentation/mapping-apis-and-services/get-started/) At first glance the website can be kind of hard to get around. If you can find the right tutorials they are great!
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* It would be really cool if the user could add their own points and descriptions.
+* Expanding the project to showcase more of what Rexburg has to offer.
+* Add more content to the website other than just the map.
