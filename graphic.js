@@ -16,24 +16,16 @@ const view = new MapView({
     map: map,
     center: [-111.78, 43.827], // Longitude, latitude
     zoom: 15, // Zoom level
-    container: "viewDiv" // Div element
+    container: "viewDiv"
 });
+
+// creating a layer for my points
 
 const graphicsLayer = new GraphicsLayer();
 map.add(graphicsLayer);
 
-// const point = { //Create a point
-//     type: "point",
-//     longitude: -111.78,
-//     latitude: 43.827
-// };
 
-// const broulums = {
-//     type: "point",
-//     longitude: -11.7,
-//     latitude: 43.8
-// }
-
+// Simple orange dot
 const simpleMarkerSymbol = {
     type: "simple-marker",
     color: [226, 119, 40],  // Orange
@@ -43,6 +35,7 @@ const simpleMarkerSymbol = {
     }
 };
 
+// gas station symbol
 let gas = {
     type: "picture-marker",  // autocasts as new PictureMarkerSymbol()
     url: "./gas.png",
@@ -51,6 +44,7 @@ let gas = {
     
 };
 
+// food symbol
 let food = {
     type: "picture-marker",  // autocasts as new PictureMarkerSymbol()
     url: "./fork.png",
@@ -59,6 +53,7 @@ let food = {
     
 };
 
+// shopping symbol
 let shopping = {
     type: "picture-marker",  // autocasts as new PictureMarkerSymbol()
     url: "./shopping.png",
@@ -72,11 +67,9 @@ const popupTemplate = {
     title: "{Name}",
     content: "{Description}"
 }
-// const attributes = {
-//     Name: "Graphic",
-//     Description: "I am a polygon"
-// }
 
+
+// creating all of the points on my graph.
 const porterPark = new Graphic({
     geometry: { //Create a point
     type: "point",
